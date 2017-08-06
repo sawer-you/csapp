@@ -26,3 +26,11 @@
 存储器  | (E<sub>_b_</sub>, E<sub>_i_</sub>, _s_) | M\[R\[E<sub>_b_</sub>] + R\[E<sub>_i_</sub>] · _s_] | 比例变址寻址
 存储器  | **_Imm_(E<sub>_b_</sub>, E<sub>_i_</sub>, _s_)** | M\[_Imm_ + R\[E<sub>_b_</sub>] + R\[E<sub>_i_</sub>] · _s_] | 比例变址寻址
 
+# 指令
+**MOV** movb movw movl  
+**MOVS** movsbw movsbl movswl  
+**MOVZ** movzbw movzbl movzwl pushl popl  
+leal  
+INC, DEC, NEG, NOT.  
+ADD, SUB, IMUL, XOR, OR, AND.  
+SAL, SHL, SAR, SHR.
