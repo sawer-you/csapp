@@ -34,3 +34,10 @@ leal
 INC, DEC, NEG, NOT.  
 ADD, SUB, IMUL, XOR, OR, AND.  
 SAL, SHL, SAR, SHR.
+
+# condition code
+CF : 进位标志。
+ZF : 零标志。
+SF : 符号标志。
+OF : 溢出标志。
+指令 : CMP S<sub>1</sub> - S<sub>2</sub>, TEST S<sub>1</sub> & S<sub>2</sub>
